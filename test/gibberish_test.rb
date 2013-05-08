@@ -7,7 +7,7 @@ rescue LoadError
 end
 
 $:.unshift File.dirname(__FILE__) + '/../lib'
-RAILS_ROOT = File.dirname(__FILE__) + '/..'
+Rails.root.join(File.dirname(__FILE__) + '/..')
 
 require 'active_support'
 require 'gibberish'
