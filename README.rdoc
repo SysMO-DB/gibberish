@@ -1,4 +1,12 @@
-= Gibberish
+= Gibberish Gem
+This is the Gem version of Gibberish Plugin
+
+More information about the Plugin please see below, or at https://github.com/defunkt/gibberish
+== Install
+Put this line into Gemfile
+gem 'gibberish', :git => "git://github.com/SysMO-DB/gibberish.git"
+
+= Gibberish Plugin
 
 Yet another localization library.  Maybe with the most agreeable API?
 
